@@ -1,4 +1,3 @@
-Berikut adalah dokumentasi singkat untuk proyek "Tasty Recipe" yang telah online di Vercel:
 
 ---
 

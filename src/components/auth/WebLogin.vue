@@ -7,8 +7,15 @@
                 <p>Welcome back! Please enter your details.</p>
             </div>
             <form>
-                <div class="my-4"><!-- Email --></div>
-                <div class="my-4"><!-- Password --></div>
+                <div class="my-4">
+                    <base-input type="email" identity="email" placeholder="Your Email" label="Email">
+                    </base-input>
+                </div>
+                <div class="my-4">
+                    <base-input type="password" identity="password" placeholder="Your password" label="Password">
+                    </base-input>
+                </div>
+                <button class="btn rounded-pill btn-primary w-100 my-3">Login</button>
             </form>
             <div class="text-center mt-4">
                 <p class="fw-semibold">
@@ -21,3 +28,7 @@
         </div>
     </div>
 </template>
+
+<script setup>
+import BaseInput from '../ui/BaseInput.vue';
+</script>
